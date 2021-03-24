@@ -24,9 +24,26 @@ aside,
 details,
 figcaption,
 figure,
-footer,
-header,
-main,
+footer{
+  background: rgb(27, 128, 109);
+  position: static;
+  bottom: 0;
+  width: 100%;
+  color: white;
+}
+header{
+  background: rgb(27, 128, 109);
+  position: sticky;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  z-index: 1;
+}
+
+main{
+  position:relative;
+  
+}
 menu,
 nav,
 section,
