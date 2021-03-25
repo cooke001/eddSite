@@ -15,7 +15,7 @@ const Footer = () => (
           margin: 0 
         }}
       >
-        © {new Date().getFullYear()}, Built with
+        © {new Date().getFullYear()}, Built by Edward Cooke with
         {` `}
         <a href="https://www.gatsbyjs.com">Gatsby</a>
       </p>

@@ -1,5 +1,5 @@
 import * as React from "react"
-import { Link } from "gatsby"
+
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -7,7 +7,8 @@ const NotFoundPage = () => (
   <Layout>
     <SEO title="404: Not found" />
     <h1>404: Not Found</h1>
-    <p>Try again, you failure.</p>
+    <p>No need to be upset!</p>
+    <p>Back to safety <a href="https://www.youtube.com/watch?v=eY52Zsg-KVI&ab_channel=JulianJapenga">here</a>.</p>
   </Layout>
 )
 
