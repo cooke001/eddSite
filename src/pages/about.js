@@ -7,8 +7,8 @@ import SEO from "../components/seo"
 const About = () => (
   <Layout>
     <SEO title="About" />
-    <h1>About me- full sized.</h1>
-    <p>About me - paragraph sized.</p>   
+    <h1>About me</h1>
+    <p>About me - paragraph</p>   
   </Layout>
 )
 
