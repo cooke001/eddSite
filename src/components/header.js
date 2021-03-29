@@ -14,35 +14,17 @@ const Header = ({ siteTitle }) => (
         }}>
         <nav>
           <ul> 
-            <li><a href="/" style={{
-              color: `white`,
-              textDecoration: `none`,
-              float: 'left'
-              }}>
-                {siteTitle}
-            </a></li> 
-            <li><a href="/about" style={{
-              color: `white`,
-              textDecoration: `none`,
-              float: 'right',
-              }}>
-                About
-            </a></li>   
-            <li><a href="/projects" style={{
-              color: `white`,
-              textDecoration: `none`,
-              float: 'right',
-              }}>
-                Projects
-            </a></li> 
+            <li><a href="/projects" style={{textDecoration: `none`, float: 'right'}}> Projects </a></li> 
+            <li><a href="/about" style={{textDecoration: `none`, float: 'right'}}> About &nbsp; </a></li> 
           </ul> 
-          <select> 
-            <option value="" selected="selected">Edward Cooke</option> 
-            <option value="/">Home</option> 
-            <option value="/about">About</option> 
-            <option value="/projects">Projects</option> 
-        </select> 
         </nav>
+        <div class="dropdown">
+          <button class="dropbtn"><a href="/" style={{textDecoration: `none`, float: 'left'}}> {siteTitle} </a></button>
+          <div class="dropdown-content">
+          <a href="/about" style={{textDecoration: `none`, float: 'right'}}> About </a>
+          <a href="/projects" style={{textDecoration: `none`, float: 'right'}}> Projects </a> 
+          </div>
+        </div>
       </h1>
     </div>
   </header>
