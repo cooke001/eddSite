@@ -38,11 +38,14 @@ header{
   width: 100%;
   overflow: hidden;
   z-index: 1;
+  padding: 25px;
+  margin: 0 auto;
 }
 
 main{
   position:relative;
-  
+  padding: 25px;
+  margin: 0 auto;
 }
 menu,
 nav,
@@ -92,10 +95,6 @@ h1 {
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -363,14 +362,6 @@ hgroup {
   margin-bottom: 1.45rem;
 }
 ul {
-  margin-left: 1.45rem;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  margin-bottom: 1.45rem;
   list-style-position: outside;
   list-style-image: none;
 }
@@ -601,14 +592,27 @@ tt:after {
   letter-spacing: -0.2em;
   content: " ";
 }
+
 pre code:before,
 pre code:after,
 pre tt:before,
 pre tt:after {
   content: "";
 }
-@media only screen and (max-width: 480px) {
-  html {
-    font-size: 100%;
-  }
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  
+}
+li {
+  display: inline;
+}
+nav select {
+  display: none;
+}
+@media (max-width: 700px) {
+  nav ul     { display: none; }
+  nav select { display: inline-block; }
 }
