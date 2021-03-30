@@ -2,7 +2,7 @@ import * as React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const About = () => (
+const Projects = () => (
   <Layout>
     <SEO title="Projects" />
     <h1>Projects</h1>
@@ -13,4 +13,4 @@ const About = () => (
   </Layout>
 )
 
-export default About
+export default Projects
