@@ -8,7 +8,8 @@ const NotFoundPage = () => (
     <SEO title="404: Not found" />
     <h1>404: Not Found</h1>
     <p>No need to be upset!</p>
-    <p>Back to safety <a href="https://www.youtube.com/watch?v=eY52Zsg-KVI&ab_channel=JulianJapenga">here</a>.</p>
+    <p>Back to safety <a href="/">here</a>.</p>
+    <p>Alternatively, click <a href="https://www.youtube.com/watch?v=eY52Zsg-KVI&ab_channel=JulianJapenga">here</a>.</p>
   </Layout>
 )
 
