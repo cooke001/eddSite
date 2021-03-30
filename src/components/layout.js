@@ -4,6 +4,7 @@ import Header from "./header"
 import Footer from "./footer"
 import "./layout.css"
 import { useStaticQuery, graphql } from "gatsby"
+import { Helmet } from "react-helmet"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -18,6 +19,14 @@ const Layout = ({ children }) => {
 // 
   return (
     <>
+    <Helmet
+    meta={[
+      {
+        name: `theme-color`,
+        content: 'rgb(27, 128, 109)',
+      },
+    ]}>
+       </Helmet>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <div
         style={{
@@ -29,6 +38,7 @@ const Layout = ({ children }) => {
         
       </div>
       <Footer/>
+     
     </>
   )
 }
