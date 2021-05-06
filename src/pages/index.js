@@ -18,48 +18,37 @@ const IndexPage = () => (
     <p><a href="https://www.instagram.com/edwardcooke1/">Instagram</a></p>
     <p><a href="https://github.com/cooke001">GitHub</a></p>
     <p>Hmm. These links will look better in the footer, I guess...</p>
-    <p>words</p>
-  <p>
+    <p>Now go build something great.</p>
+    <p>Now go build something great.</p>
+    <p>Now go build something great.</p>
+    <p>Now go build something great.</p>
+    <p>Now go build something great.</p>
+    <p>Now go build something great.</p>
+    <p>Now go build something great.</p>
+    <p>Now go build something great.</p>
+    <p>Now go build something great.</p>
+    <p>Now go build something great.</p>
+    <p>Now go build something great.</p>
+    <p>Now go build something great.</p>
+    <p>Now go build something great.</p>
+    <p>Now go build something great.</p>
+    <p>Now go build something great.</p>
+    <p>Now go build something great.</p>
+    <p>Now go build something great.</p>
+    <p>Now go build something great.</p>
+    <p>Now go build something great.</p>
+    <p>Now go build something great.</p>
+    <p>Now go build something great.</p>
+    <p>Now go build something great.</p>
+    <p>Now go build something great.</p>
+    <p>Now go build something great.</p>
+    <p>Now go build something great.</p>
+    <p>Now go build something great.</p>
+    <p>Now go build something great.</p>
+    <p>Now go build something great.</p>
+    <p>
       <Link to="/about/">Go to about</Link> <br />
     </p>
-    <p>more words</p>
-    <p>more words</p>
-    <p>more words</p>
-    <p>more words</p>
-    <p>more words</p>
-    <p>more words</p>
-    <p>more words</p>
-    <p>more words</p>
-    <p>more words</p>
-    <p>more words</p>
-    <p>more words</p>
-    <p>more words</p>
-    <p>more words</p>
-    <p>more words</p>
-    <p>more words</p>
-    <p>more words</p>
-    <p>more words</p>
-    <p>more words</p>
-    <p>more words</p>
-    <p>more words</p>
-    <p>more words</p>
-    <p>more words</p>
-    <p>more words</p>
-    <p>more words</p>
-    <p>more words</p>
-    <p>more words</p>
-    <p>more words</p>
-    <p>more words</p>
-    <p>more words</p>
-    <p>more words</p>
-    <p>more words</p>
-    <p>more words</p>
-    <p>more words</p>
-    <p>more words</p>
-    <p>more words</p>
-    <p>more words</p>
-
-    
   </Layout>
 )
 
