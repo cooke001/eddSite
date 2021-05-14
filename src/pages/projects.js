@@ -23,7 +23,7 @@ const Projects = () => (
         <p>Includes hand cut and laser cut mother of pearl inlays.</p>
       </Col>
       <Col xs="4">
-      <Carousel slide prevLabel nextLabel>
+      <Carousel fade prevLabel nextLabel>
         <Carousel.Item>
           <StaticImage
             src="../images/Monopoly/Mono1.jpeg"
