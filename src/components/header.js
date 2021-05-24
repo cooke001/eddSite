@@ -6,7 +6,8 @@ const Header = ({ siteTitle }) => (
     <div
       style={{
         margin: `0 auto`,
-        maxWidth: 960,  
+        maxWidth: 960,
+         
         }}
       >
       <h1 style={{ 
