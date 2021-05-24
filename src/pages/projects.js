@@ -23,28 +23,26 @@ const Projects = () => (
         <p>Includes hand cut and laser cut mother of pearl inlays. I need to finish casting the player tokens - maybe this year...</p>
       </Col>
       <Col xs="4">
-      <Carousel fade prevLabel nextLabel>
-        <Carousel.Item>
-          <StaticImage
-            src="../images/Monopoly/Mono1.jpeg"
-          />
-        </Carousel.Item> 
-        <Carousel.Item>
-          <StaticImage
-            src="../images/Monopoly/Mono2.jpeg"
-          />
-        </Carousel.Item> 
-        <Carousel.Item>
-          <StaticImage
-            src="../images/Monopoly/Mono3.jpeg"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <StaticImage
-            src="../images/Monopoly/Mono4.jpeg"
-          />
-        </Carousel.Item>
-      </Carousel>
+        <StaticImage
+          src="../images/Monopoly/Mono1.jpeg"
+        />
+      </Col>
+    </Row>
+    <Row>
+      <Col xs="4">
+        <StaticImage
+          src="../images/Monopoly/Mono2.jpeg"
+        />
+      </Col>
+      <Col xs="4"> 
+        <StaticImage
+          src="../images/Monopoly/Mono3.jpeg"
+        />
+      </Col>
+      <Col xs="4">  
+        <StaticImage
+          src="../images/Monopoly/Mono4.jpeg"
+        />
       </Col>
     </Row>
     <Row>
