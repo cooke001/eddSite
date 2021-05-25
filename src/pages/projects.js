@@ -106,7 +106,7 @@ const Projects = () => (
     <p>MCB finding tool</p>
     <p>Harry Potter Book Nook</p>
     <p>DarkBlackBoard - forked from Zainja's repository, I've fixed a few bugs with his extension to make blackboard dark</p>
-    <p>Assistive screen reader - Similar to putting a ruler in your book, this highlights a strip of your screen in a colour to aid reading.</p>
+    <!--<p>Assistive screen reader - Similar to putting a ruler in your book, this highlights a strip of your screen in a colour to aid reading.</p>-->
   </Layout>
 )
 
