@@ -19,6 +19,7 @@ const IndexPage = () => (
     <p><a href="https://www.instagram.com/edwardcooke1/">Instagram</a></p>
     <p><a href="https://github.com/cooke001">GitHub</a></p>
     <p>Hmm. These links will look better in the footer, I guess...</p>
+    <p><Link to="/audiointerface/">Installation for audio interface</Link></p>
     <p>Now go build something great.</p>
     <p>Now go build something great.</p>
     <p>Now go build something great.</p>
