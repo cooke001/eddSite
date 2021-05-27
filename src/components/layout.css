@@ -89,7 +89,10 @@ li a{
 h2 a{
   color: inherit;
 }
-a:active,
+p a{
+  text-decoration: none;
+}
+
 a:hover {
   outline-width: 0;
   color: rgb(146, 146, 146);
