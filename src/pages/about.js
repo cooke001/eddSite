@@ -19,7 +19,7 @@ const About = () => (
       <Col xs = "8">
         <p>I'm Edward Cooke, a PhD student at the University of Manchester. My research is related to Underwater Robotics; I designed and built an underwater glider called the UnderGRND.</p>
         <p>Underwater Gliders work by changing their buoyancy to move forwards and backwards. This is an incredibly efficent way of moving underwater, and also has the advantage this it produces very little turbulent motion in comparison to traditional underwater propulsion methods.</p>
-        <p>In my free time I help run a venue at the Edinburgh Fringe Festival, tinker with electronics (see my about section), and run around Manchester.</p>
+        <p>In my free time I help run a venue at the Edinburgh Fringe Festival, tinker with electronics (see <a href="/projects/"> projects</a>), and run around Manchester.</p>
       </Col>
     </Row>
   </Layout>
